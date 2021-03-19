@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankieta | Utwórz Pytanie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="left"><a href="index.html">Dodaj ankietę</a></li>
+                <li><a href="php/wyniki.php?ankieta=1">Wyniki</a></li>
+                <li><a href="php/ankieta.php?ankieta=1">Ankiety</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="pytania" class="box">
+        <h1>Utwórz Ankietę</h1>
+        <input type="text" id="pyt" name="pytanie" placeholder="Pytanie">
+        <input type="text" id="odp_a" name="odp_a" placeholder="Odpowiedź A">
+        <input type="text" id="odp_b" name="odp_b" placeholder="Odpowiedź B">
+        <input type="text" id="odp_c" name="odp_c" placeholder="Odpowiedź C">
+        <input type="text" id="odp_d" name="odp_d" placeholder="Odpowiedź D">
+        <input type="submit" value="Utwórz">
+    </form>
+</body>
+</html>
