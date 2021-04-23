@@ -48,3 +48,4 @@ function blad_dodanie() {
      });
 }
 window.addEventListener('load', init, false);
+
